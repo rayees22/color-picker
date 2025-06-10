@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Color Picker & Text Editor</title>
+  <link rel="stylesheet" href="clor-pker.css">
+  
+</head>
+<body>
+
+  <div class="container">
+    <h2>🎨 Color Picker & Text Editor</h2>
+
+    <div class="controls">
+      <label for="colorPicker">Text Color:</label>
+      <input type="color" id="colorPicker" value="#000000" />
+    </div>
+
+    <div class="controls">
+      <label for="fontSize">Font Size:</label>
+      <input type="range" id="fontSize" min="10" max="100" value="24" />
+      <span id="fontSizeValue">24px</span>
+    </div>
+
+    <div id="editableText" contenteditable="true">
+         Edit this text...
+    </div>
+  </div>
+
+  <script src="clor-pker.js">
+   
+  </script>
+
+</body>
+</html>
